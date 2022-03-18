@@ -98,7 +98,7 @@ class UserController extends Controller
      */
     public function destroy(User $user)
     {
-        if(auth()->user()->email == 'admin@gmail.com'){
+        if($user->email == 'admin@gmail.com'){
             return redirect()->route('users.index')->with('error', 'Oops! You can not delete admin account!');
         }
         $user->delete();
