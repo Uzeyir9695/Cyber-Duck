@@ -17,7 +17,6 @@
         </table>
     </div>
 @endsection
-@push('scripts')
     @include('datatable-scripts')
     <script type="text/javascript">
         $(function () {
@@ -40,5 +39,4 @@
             });
         });
     </script>
-@endpush
 
