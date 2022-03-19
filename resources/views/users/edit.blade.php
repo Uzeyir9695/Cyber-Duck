@@ -14,6 +14,7 @@
                 <input type="text" class="form-control" id="email" value="{{ $user->email }}" name="email">
             </div>
             <button type="submit" class="btn btn-primary">Save</button>
+            <a href="{{ route('users.index') }}" class="btn btn-primary my-4">Cancel</a>
         </form>
     </div>
 @endsection

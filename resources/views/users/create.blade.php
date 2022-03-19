@@ -21,6 +21,7 @@
                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation">
             </div>
             <button type="submit" class="btn btn-primary">Create</button>
+            <a href="{{ route('books.index') }}" class="btn btn-primary my-4">Back</a>
         </form>
     </div>
 @endsection

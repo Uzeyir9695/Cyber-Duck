@@ -21,6 +21,7 @@
             </div>
             <div class="form-group mt-4">
                 <button type="submit" class="btn btn-primary">Create</button>
+                <a href="{{ route('categories.index') }}" class="btn btn-primary my-4">Back</a>
             </div>
         </form>
     </div>

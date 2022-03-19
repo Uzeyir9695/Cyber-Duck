@@ -2,6 +2,7 @@
 @section('content')
     <div class="container mt-5">
         @include('delete')
+        <a href="{{ route('books.create') }}" class="btn btn-primary my-4">Create a new one</a>
         <h2 class="mb-4">Technical Task</h2>
         <table class="table table-bordered yajra-datatable">
             <thead>

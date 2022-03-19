@@ -27,6 +27,7 @@
                 <input type="file" class="form-control" id="image" name="image">
             </div>
             <button type="submit" class="btn btn-primary">Create</button>
+            <a href="{{ route('books.index') }}" class="btn btn-primary my-4">Back</a>
         </form>
     </div>
 @endsection
